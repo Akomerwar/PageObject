@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-21T13:49:26 IST" name="Default suite" finished-at="2024-03-21T13:50:00 IST" duration-ms="33817">
+  <suite started-at="2024-03-25T15:11:41 IST" name="Default suite" finished-at="2024-03-25T15:14:44 IST" duration-ms="183221">
     <groups>
     </groups>
-    <test started-at="2024-03-21T13:49:26 IST" name="Default test" finished-at="2024-03-21T13:50:00 IST" duration-ms="33817">
+    <test started-at="2024-03-25T15:11:41 IST" name="Default test" finished-at="2024-03-25T15:14:44 IST" duration-ms="183221">
       <class name="TestScenarios.testscase1">
-        <test-method is-config="true" signature="beforetest()[pri:0, instance:TestScenarios.testscase1@d86a6f]" started-at="2024-03-21T13:49:26 IST" name="beforetest" finished-at="2024-03-21T13:49:54 IST" duration-ms="27758" status="PASS">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:TestScenarios.testscase1@2892d68]" started-at="2024-03-25T15:11:41 IST" name="beforetest" finished-at="2024-03-25T15:14:38 IST" duration-ms="176497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method signature="Test3()[pri:0, instance:TestScenarios.testscase1@d86a6f]" started-at="2024-03-21T13:49:54 IST" name="Test3" finished-at="2024-03-21T13:49:59 IST" duration-ms="5581" status="FAIL">
+        <test-method signature="Test4()[pri:0, instance:TestScenarios.testscase1@2892d68]" started-at="2024-03-25T15:14:38 IST" name="Test4" finished-at="2024-03-25T15:14:43 IST" duration-ms="5408" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='um-otp-emailbox1']//input[@type='text']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='profile']"}
   (Session info: chrome=123.0.6312.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f1c35422ba45a375ed67f055c7473165, findElement {value=//div[@class='um-otp-emailbox1']//input[@type='text'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\ANIRUDHA\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57212/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f1c35422ba45a375ed67f055c7473165]]>
+Command: [2b4178528a5d19ea59c7ab009281bfca, findElement {value=//img[@alt='profile'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\ANIRUDHA\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51349/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b4178528a5d19ea59c7ab009281bfca]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='um-otp-emailbox1']//input[@type='text']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='profile']"}
   (Session info: chrome=123.0.6312.59)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f1c35422ba45a375ed67f055c7473165, findElement {value=//div[@class='um-otp-emailbox1']//input[@type='text'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\ANIRUDHA\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57212/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f1c35422ba45a375ed67f055c7473165
+Command: [2b4178528a5d19ea59c7ab009281bfca, findElement {value=//img[@alt='profile'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\ANIRUDHA\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51349/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b4178528a5d19ea59c7ab009281bfca
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -50,8 +50,8 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-at Object1.ForgotPasswordPage.otpenter(ForgotPasswordPage.java:35)
-at TestScenarios.testscase1.Test3(testscase1.java:63)
+at Object1.DeleteAccountPage.ReisgtrationPage(DeleteAccountPage.java:27)
+at TestScenarios.testscase1.Test4(testscase1.java:77)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -85,8 +85,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test3 -->
-        <test-method is-config="true" signature="aftertest()[pri:0, instance:TestScenarios.testscase1@d86a6f]" started-at="2024-03-21T13:49:59 IST" name="aftertest" finished-at="2024-03-21T13:50:00 IST" duration-ms="430" status="PASS">
+        </test-method> <!-- Test4 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:TestScenarios.testscase1@2892d68]" started-at="2024-03-25T15:14:43 IST" name="aftertest" finished-at="2024-03-25T15:14:44 IST" duration-ms="1257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->

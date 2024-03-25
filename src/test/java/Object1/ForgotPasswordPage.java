@@ -3,7 +3,7 @@ package Object1;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class ForgotPasswordPage {
+public class ForgotPasswordPage{
 	WebDriver driver;
 	
 	public ForgotPasswordPage(WebDriver driver) {
