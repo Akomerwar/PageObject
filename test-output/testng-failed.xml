@@ -5,9 +5,9 @@
     <classes>
       <class name="TestScenarios.testscase1">
         <methods>
-          <include name="Test4"/>
           <include name="aftertest"/>
           <include name="beforetest"/>
+          <include name="Test1"/>
         </methods>
       </class> <!-- TestScenarios.testscase1 -->
     </classes>
